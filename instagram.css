@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    
+
+}
+#section{
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+     align-content: center; 
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+    margin-top: 20px;
+    
+   
+}
+#line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.hr{
+    width: 100px;
+}
+input{
+    width: 300px;
+    padding:10px;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+h1{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+#button{
+    background-color:rgb(14, 76, 95);
+    color: white;
+    padding: 10px;
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+}
+#fb{
+    color: #092c68;
+    margin-bottom: 10px;
+}
+#login{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    align-content: center; 
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#para{
+    margin-right: 10px;
+}
+.bg{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.bg i{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+#appicon,#appicon2{
+    display: flex;
+    justify-content: center;
+}
+#appicon p,#appicon2 p{
+    margin-right: 20px;
+}
+input,button:focus{
+    outline: none;}
+#hide{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+}
+#fbsign{
+    background-color:#055aec;
+    color: white;
+    width: 300px;
+    text-align: center;
+    padding:300px;
+    margin-left: 90px;
+}
+#fbsign{
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#line2,#line3{
+    display: flex;
+    flex-direction: row;
+    /* align-content: center; */
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#field,#field2{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    width: 250px;
+    color: dimgrey;
+}
+.linespace{
+    line-height: 20px;
+    
+    
+}
+#loginbutton:hover{
+transform: translateY(-4px);
+cursor: pointer;
+}
+#clickforsignup:hover{
+    transform: translateY(-4px);
+    cursor: pointer;
+    }
+#upbtn{
+    width: 200px;
+    background-color:#055aec;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 300px;
+}
+#login2{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    align-content: center; 
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#fbpagelogin{
+    background-color:rgb(250, 236, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#fbbutton{
+    background-color: rgb(27, 197, 27);
+    color: white;
+    margin-left: 20px;
+    height: 30px;
+}
+#bg{
+    width: 1300px;
+    height: 40px;
+    padding: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#fbbtn{
+    background-color:#092c68;
+    width: 325px;
+    padding: 10px;
+    color: white;
+
+}
+#align{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 400px;
+}
+#arrow{
+    position: relative;
+    right: 660px;
+}
+#insta,#insta2{
+    font-family: 'Lobster', sans-serif;
+/* font-family: 'Pacifico', cursive; */
+/* font-family: 'Paytone One', sans-serif; */
+font-size: 40px;
+font-weight: 100;
+color: rgb(41, 40, 40);
+}
+#forgot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    width: 500px;
+    height: 510px;
+    margin-top: 10px;
+    display: none;
+}
+#forgot i{
+    border: 2px solid rgb(30, 48, 80);
+    border-radius: 50px;
+    background-color: white;
+    padding: 40px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* #show{
+    display: none;
+} */
+#sendlink{
+    width: 320px;
+    padding: 10px;
+    background-color: #092c68;
+    color: white;
+}
+#border{
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+}
